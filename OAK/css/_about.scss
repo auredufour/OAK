@@ -1,0 +1,34 @@
+.about {
+	margin: 5rem 0;
+	padding: 5rem 0;
+
+	.aboutOne, .aboutTwo {
+		width: calc(50% - 4rem);
+		float: left;
+	}
+
+	.aboutOne {
+		padding: 9rem 3rem 9rem 0;
+
+		p {
+			padding-top: 2rem;
+			padding-right: 4rem;
+		}
+
+		img {
+			padding-bottom: 1rem;
+		}
+	}
+
+	.aboutTwo {
+		margin-left: 8rem;
+		padding: 0;
+
+		img {
+			width: 100%;
+			display: block;
+			position: relative;
+			right: 0;
+		}
+	}
+}

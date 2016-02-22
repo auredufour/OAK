@@ -1,0 +1,35 @@
+.skill {
+	padding: 5rem 0 0;
+
+	.skillContent {
+		padding: 3.5rem 0;
+		
+		img {
+			padding-top: 1.5rem;
+		}
+	}
+
+	.skillOne, .skillTwo, .skillThree {
+		width: calc((33.3% - (11% / 3)) ;
+		float: left;
+
+		img {
+			display: block;
+			padding-bottom: 2rem;
+		}
+	}
+
+	.skillOne, .skillTwo {
+		margin-right: 5.5%;
+	}
+
+	p.second {
+		margin: 0;
+		padding: 1rem 0 3.5rem 0;
+	}
+
+	p {
+		margin: 0;
+	}
+
+}

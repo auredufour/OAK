@@ -1,0 +1,113 @@
+.post {
+
+	.postContainer {
+		position: relative;
+		margin: 10rem 0 0;
+	}
+	
+	.postTwo {
+		width: 47rem;
+		padding: 2.5rem 6rem;
+		position: absolute;
+		top: 5rem;
+		right: 0;
+		bottom: 5rem;
+		background-color: $blog;
+		text-align: left;
+		color: #fff;
+		font-family: "Ubuntu";
+
+		h3 {
+			text-align: center;
+			line-height: 4rem;
+			margin: 2rem 0;
+		}
+
+		h3:nth-child(2){
+			line-height: 3rem;
+			text-transform: none;
+			margin: 0;
+			letter-spacing: 0;
+			text-align: left;
+		}
+		h3:nth-child(2), p {
+			margin-top: 2rem;
+		}
+
+
+		p {
+			font-size: 1.4rem;
+			font-weight:300;
+			
+		}
+
+		a {
+			position: absolute;
+			right: 6rem;
+			bottom: 2rem;
+			transition: 0.5s;
+		}
+
+		a:hover svg {
+			fill: $blue;
+		}
+
+		svg {
+			width: 2.5rem;
+			fill:#fff;
+		}
+	}
+
+	.list {
+		width: 37rem;
+		position:relative;
+		left: calc(100% - 37rem);
+
+
+		ul {
+			padding: 3rem 0;
+			margin: 8rem 0 12rem;;
+			position: relative;
+			right: 0;
+		}
+
+		li {
+			margin-left: 0.5rem;
+			padding: 1rem 0;
+		}
+
+
+		a { 
+			padding: 1.8rem 2.2rem;
+			border: 1px solid $grey;
+			color: $typo;
+			font-family:"Ubuntu";
+		}
+
+		a:hover{
+			background: $blue;
+			color: #fff;
+			border: 1px solid $blue;
+		}
+
+		a:hover svg {
+			fill: #fff;
+		}
+
+		li:first-child a, li:last-child a {
+			padding: 1.8rem;
+		}
+
+		svg {
+			width: 1.6rem;
+			position:relative;
+			top: 0.3rem;
+			fill: $typo;
+		}
+		.listOne svg {
+			transform: rotate(180deg);
+		}
+
+
+	}
+}

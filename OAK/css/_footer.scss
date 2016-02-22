@@ -1,0 +1,65 @@
+footer {
+	background: $grey;
+
+	.wrapper {
+	margin-top: 10rem;
+	position: relative;
+		
+	}
+	
+	.footerOne, .footerTwo, .footerThree {
+		width: 15%;
+		float: left;
+		padding: 10rem 0;
+	}
+
+	.footerOne {
+		margin-right: 20%;
+	}
+
+	.footerTwo, .footerTwo ul {
+		margin: 0 auto;
+	}
+
+	.footerTwo ul, .footerTwo li, .footerTwo a {
+			padding: 0;	
+	}
+
+	.footerTwo {
+		width: 30%;
+		text-align: center;
+
+		ul {
+			width: 65%;
+		}
+
+		li {
+			float: left;
+		}
+
+		p {
+			margin:0;
+			padding: 4rem 0;
+		}
+
+		ul li svg {
+			fill: $typo;
+			width: 3.2rem;
+			padding: 0.8rem;
+			display: block;
+			transition: 0.5s
+		}
+
+		a:hover svg {
+			fill: $blue;
+		}
+
+	}
+	.footerThree {
+		position: absolute;
+		right: 0;
+		padding-right: 0;
+		margin-left: 20%
+
+	}
+}

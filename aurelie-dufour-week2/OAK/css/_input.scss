@@ -1,0 +1,26 @@
+input, textarea {
+	padding: 1.5rem;
+	outline: 0;
+	border: 1px solid rgba(120,120,120, 0.7);
+	transition: 0.5s;
+}
+
+input:hover, textarea:hover {
+	border: 1px solid $blue;
+}
+
+input:focus, textarea:focus {
+	border: 1px solid rgba(54, 54, 54, 1);
+	box-shadow: none;
+}
+
+input[type=submit] {
+	margin-top: 2.5rem;
+	padding: 1.25rem 1.5rem;
+	background: $blue;
+	border: 1px solid transparent;
+}
+
+input[type=submit]:hover {
+	background-color: #37e5aa;
+}

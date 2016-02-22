@@ -1,0 +1,176 @@
+.portfolio {
+	padding:3rem 0 5rem;
+
+	ul {
+		padding: 0;
+		margin: 0 auto;
+
+		li {
+			padding: 1rem;
+		}
+	}
+/* LIST PORTFOLIO */
+	.selection {
+		padding: 3rem 0 2rem;
+	}
+
+	.toogleTwo, .select {
+		display: inline-block;
+	}
+
+	.toggleTwo {
+		margin-right: 1rem;
+		padding: 1rem 1.74rem 1.1rem;
+		position: relative;
+		top: -0.5rem;
+		left: 0rem;
+	} 
+
+	.toggleTwo:hover {
+		background-color: $blue;
+	}
+
+	input[type=checkbox] {
+		display: none;
+	}
+
+	input[type=checkbox]:checked ~ .select {
+		opacity: 1
+	}
+
+	ul.select {
+		opacity: 0;
+		transition: 0.5s;
+		
+		li {
+			padding: 0 1rem;
+			font-size: 1.8rem;
+			transition: 0.5s;
+		}
+	}
+
+	.select li:first-child {
+		padding-left: 0; 
+	}
+
+	.select li:hover {
+		color: $blue;
+	}
+
+/* GALLERY */
+	.photo {
+		width: 33.3%;
+		padding: 1rem;
+		position: relative;
+
+		img {
+			width: 100%;
+		}
+		
+		h5, p {
+		position: absolute;
+		text-transform: uppercase;
+		left: 2rem;
+		}
+
+		h5 {
+		bottom: 2rem;
+		}
+
+		p:first-child {
+		top:0;
+		}
+
+		p:last-child {
+		bottom: 0.5rem;
+		}
+	}
+/* OVERLAY EFFECT BACKGROUND*/
+
+	.photo:nth-child(3n-2) {
+		padding-left: 0;
+	}
+
+	.photo:nth-child(3n-2) .overlay {
+		left: 0;
+	}
+
+	.photo:nth-child(3n-1) {
+		padding: 1rem 0.5rem;
+	}
+
+	.photo:nth-child(3n-1) .overlay {
+		left: 0.5rem;
+		right: 0.5rem;
+	}
+
+	.photo:nth-child(3n) {
+		padding-right: 0;
+	}
+	
+	.photo:nth-child(3n) .overlay {
+		right: 0;
+	}
+
+/* OVERLAY */
+	.overlay {
+		margin: 0;
+		background: rgba(123, 238, 199, 0.9);
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		bottom: 1.5rem;
+		left: 1rem;
+		border: 0.4rem solid #000;
+		opacity: 0;		
+		transition: 0.5s;	
+	}
+
+	.photo:hover .overlay{
+		opacity: 1;
+	}
+
+	i {
+		display: block;
+		font-size: 2.4rem;
+	}
+
+/* CROSS */
+	// .crossOne {
+	// 	transform: rotate(90deg);
+	// }
+
+	// .crossOne, .crossTwo {
+	// 	width: 8rem;
+	// 	position: absolute;
+	// 	top: 50%;
+	// 	left: calc(50% - 4rem);
+	// 	border-bottom: 1px solid #000;
+	// 	opacity: 0;
+	// }
+
+	// .overlay .crossOne, .overlay .crossTwo {
+	// 	opacity: 1;
+	// }
+
+	img.cross {
+		width: 8rem;
+		display: block;
+		position: absolute;
+		top: calc(50% - 4rem);
+		left: calc(50% - 4rem);
+	}
+
+	img.loop {
+		display: block;
+		width: 4rem;
+		margin: 7rem auto; 
+		transition: 0.8s;
+	}
+
+	img.loop:hover {
+		transform: rotate(360deg); 
+	}
+}
+
+	

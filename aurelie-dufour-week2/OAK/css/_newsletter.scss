@@ -1,0 +1,66 @@
+.newsletter {
+
+	.newsletterContainer {
+		padding: 0;
+		position: relative;
+		margin-bottom: 5rem;
+
+		.newsletterOne, .newsletterTwo {
+			float: left;
+			width: 50%;
+			padding: 8rem 4rem;
+		}
+
+		.newsletterOne {
+		background-color: $blue;
+		
+
+			h2 { 
+				padding: 3rem;
+				margin: 0;
+				text-transform: uppercase;
+
+				span {
+					font-weight: 700;
+				}
+			}
+
+			h2:first-child {
+					padding-bottom: 0;
+			}
+
+			h2:last-child {
+					padding-top: 0;
+			}
+		}
+
+		.newsletterTwo {
+			top: 0;
+			bottom: 0;
+			right: 0;
+			padding: 5.5rem 3rem;
+			position: absolute;
+			background-size: cover;
+			background-image: url("../home/images/clock.jpg");
+			
+			form {
+				width: 85%;
+				padding: 1rem;
+				background: #fff;
+				margin: 0 auto;
+			}
+
+			input {
+				width: 80%;
+				margin: 3rem 10% 0;
+			}
+
+			input[type=submit] {
+				width: 50%;
+				margin: 3rem 25%;
+			}
+		}
+	}
+}
+
+	

@@ -1,0 +1,73 @@
+.info {
+
+	margin-top: 10rem;
+
+	aside {
+		width: 25%;
+		float: left;
+
+		.infoOne, .infoTwo, .infoThree {
+			margin-bottom: 3rem;
+		}
+
+		h6, p {
+			width: 80%;
+			margin: 0;
+			letter-spacing: 0.2rem;
+		}
+
+		h6 {
+			text-transform: uppercase;
+			font-size: 1.4rem;
+		}
+
+		p {
+			padding-left: 4rem;
+		}
+
+		h6::before {
+			content:"";
+			position: relative;
+			top: 1rem;
+		}
+
+		.infoOne h6::before {
+			content: url("../contact/assets/phone.png");
+			padding-right: 2.7rem;
+		}
+
+		.infoTwo h6::before {
+			content: url("../contact/assets/map.png");
+			padding-right: 2rem;
+		}
+
+		.infoThree h6::before {
+			content: url("../contact/assets/envelope.png");
+			top: 0.3rem;
+			padding-right: 1.8rem;
+		}
+	}
+
+	form {
+		width: 75%;
+		float: left;
+		position: relative;
+		padding: 3.5rem 0 0;
+
+		input, textarea {
+			width: 100%;
+			margin: 0 0 3rem;
+		}
+
+		textarea {
+			padding-bottom: 2.9rem;
+		}
+		
+		.formOne, .formTwo {
+			width: calc(50% - 3rem);
+			float: left;
+			margin-left: 3rem;
+		}
+		
+	}
+}

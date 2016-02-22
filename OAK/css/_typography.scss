@@ -1,0 +1,106 @@
+body {
+	font-family: "Raleway";
+	line-height: 2.4rem;
+	color: $typo;
+}
+
+h1 {
+	font-size: 5.3rem;
+	letter-spacing: 0.6rem;
+}
+
+.contact h1 {
+	font-size: 6rem;
+}
+
+/*BLOG PAGE H1*/
+.blogOne h1 {
+	font-size: 4.7rem;
+}
+
+h2 {
+	font-size: 3rem;
+	letter-spacing: 0.2rem;
+}
+
+/*HOME PAGE NEWSLETTER*/
+.newsletterOne {
+	line-height: 3.5rem;
+}
+
+h3 {
+	font-size: 2.4rem;
+	line-height: 0.2rem;
+	letter-spacing: 0.3rem;
+}
+
+.toggleTwo {
+	font-size: 2rem;
+}
+
+.blog h2, .contact h2, h4, h5, .list li, input[type="submit"] {
+	font-size: 1.8rem;
+}
+
+h6, p, input, textarea, p.second {
+	font-size: 1.4rem;
+}
+
+/*BLOG + CONTACT PAGES H2*/
+.blog h2, .contact h2, p {
+	font-family: "Ubuntu";
+}
+
+h4 {
+	margin-top: 0;
+}
+
+/*HOME ABOUT*/
+.aboutOne h4 {
+	line-height: 2.8rem;
+}
+
+h5 {
+	padding: 0;
+	margin: 0 0 2rem;
+}
+
+
+h3, h4, h5, h6, nav a, input[type="submit"], .footerTwo p  {
+	text-transform: uppercase;
+}
+
+h5, footer p, input[type="submit"] {
+	letter-spacing: 0.2rem;
+}
+
+/*FOOTER HOME + BLOG + CONTACT*/
+footer p {
+	margin:0.5rem 0;
+	color:  $lightgrey;
+}
+
+a {
+	font-size: 1.6rem;
+	transition: 0.5s;
+
+	&:hover, {
+		color: $blue;
+	}
+}
+
+input[type="submit"] {
+	color: #fff;
+}
+
+h1, h2, h3, h4, p.second {
+	font-weight: 300;
+}
+/*CONTACT PAGE H1*/
+.contact h1, .header span {
+	font-weight: 400;
+}
+
+.blogOne h1, h5, h6, input[type="submit"] {
+	font-weight: 700;
+} 
